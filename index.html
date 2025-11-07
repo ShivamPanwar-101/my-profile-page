@@ -12,10 +12,10 @@
       <nav class="navbar">
         <h1 class="logo">My profile</h1>
         <ul class="list">
-          <li><a href="# About">About</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -39,7 +39,7 @@
       </div>
     </section>
     <!-- Skills -->
-    <section class="skills">
+    <section class="skills" id="skills">
       <h2>Skills</h2>
       <div class="skills-container">
         <div class="skill-card">
@@ -60,33 +60,117 @@
         </div>
       </div>
     </section>
-    <section class="projects">
-  <h2>Projects</h2>
-  <div class="projects-container">
+    <section class="projects" id="projects">
+      <h2>Projects</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/3039/3039386.png"
+            alt="Simon Game"
+          />
+          <h3>Simon Game</h3>
+          <p>
+            A fun memory-based game built using HTML, CSS, and JavaScript to
+            test pattern recognition and focus.
+          </p>
+          <a href="#" class="btn">View Project</a>
+        </div>
 
-    <div class="project-card">
-      <img src="https://cdn-icons-png.flaticon.com/512/3039/3039386.png" alt="Simon Game">
-      <h3>Simon Game</h3>
-      <p>A fun memory-based game built using HTML, CSS, and JavaScript to test pattern recognition and focus.</p>
-      <a href="#" class="btn">View Project</a>
-    </div>
+        <div class="project-card">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png"
+            alt="Resume Builder"
+          />
+          <h3>Resume Builder Application</h3>
+          <p>
+            A web app that allows users to create professional resumes
+            dynamically using HTML, CSS, and JavaScript.
+          </p>
+          <a href="#" class="btn">View Project</a>
+        </div>
 
-    <div class="project-card">
-      <img src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png" alt="Resume Builder">
-      <h3>Resume Builder Application</h3>
-      <p>A web app that allows users to create professional resumes dynamically using HTML, CSS, and JavaScript.</p>
-      <a href="#" class="btn">View Project</a>
-    </div>
+        <div class="project-card">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+            alt="Portfolio Website"
+          />
+          <h3>Portfolio Website</h3>
+          <p>
+            A personal portfolio website to showcase projects, skills, and
+            achievements — built from scratch using HTML & CSS.
+          </p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="contact-container">
+        <!-- Left Side -->
+        <div class="contact-info">
+          <h2>Contact Me</h2>
+          <p>
+            Let’s collaborate or discuss opportunities! Feel free to reach out
+            using the form or through my social platforms below.
+          </p>
 
-    <div class="project-card">
-      <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Portfolio Website">
-      <h3>Portfolio Website</h3>
-      <p>A personal portfolio website to showcase projects, skills, and achievements — built from scratch using HTML & CSS.</p>
-      <a href="#" class="btn">View Project</a>
-    </div>
+          <div class="info-item">
+            <strong>Email:</strong> shivam@example.com
+          </div>
+          <div class="info-item"><strong>Phone:</strong> +91 98765 43210</div>
 
-  </div>
-</section>
+          <div class="social-links">
+            <a href="#" target="_blank">GitHub</a>
+            <a href="#" target="_blank">LinkedIn</a>
+            <a href="#" target="_blank">Twitter</a>
+          </div>
+        </div>
 
+        <!-- Right Side -->
+        <div class="contact-form">
+          <form>
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <h3>Shivam Panwar</h3>
+          <p>
+            Thank you for visiting my portfolio. Let’s connect and create
+            something amazing!
+          </p>
+        </div>
+
+        <div class="footer-middle">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-right">
+          <h4>Follow Me</h4>
+          <div class="footer-socials">
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Twitter</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 Shivam Panwar. All Rights Reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
