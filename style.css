@@ -11,6 +11,7 @@ body {
   background-color: #f5f5f5;
   color: #222;
   font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #f8f9fa, #e8f5f3);
 }
 .navbar {
   display: flex;
@@ -75,7 +76,7 @@ body {
   background-color: white;
   color: #333;
   padding: 60px 40px;
-  margin: 60px auto;
+  margin: 30px auto;
   display: flexbox;
   justify-content: center;
   align-items: center;
@@ -134,7 +135,7 @@ body {
   height: 280px;
   border-radius: 50%;
   object-fit:contain;
-  object-position: center;     /* keeps face centered */
+  object-position: center;    
   background-color: white;
   object-position: top-center;
   border: 4px solid #00796b;
@@ -162,13 +163,12 @@ body {
   }
 }
 
-/* skill Section */
 /* Skills Section */
 .skills {
   background-color: white;
   color: #222;
   padding: 60px 40px;
-  margin: 40px 0px;
+  margin: 30px 0px;
   max-width: 100%;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -213,13 +213,85 @@ body {
   color: #333;
   font-size: 1rem;
 }
+/* ================= EDUCATION SECTION ================= */
+.education {
+  background-color: white;
+  color: #222;
+  padding: 60px 40px;
+  margin: 30px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+}
+
+.education h2 {
+  font-size: 2rem;
+  border-left: 4px solid #00796b;
+  padding-left: 10px;
+  margin-bottom: 40px;
+  text-align: left;
+  color: #222;
+}
+
+.education-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.edu-card {
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(100, 255, 218, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.edu-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 121, 107, 0.3);
+}
+
+.edu-card h3 {
+  color: #00796b;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.edu-card p {
+  font-size: 1rem;
+  color: #333;
+  margin: 6px 0;
+  line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .education-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .edu-card {
+    width: 90%;
+  }
+
+  .education h2 {
+    text-align: center;
+  }
+}
 
 /* Projects Section */
 .projects {
   background-color: white;
   color: #222;
   padding: 60px 40px;
-  margin: 60px auto 20px auto;
+  margin: 30px auto 20px auto;
   max-width: 100%;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -294,7 +366,7 @@ body {
   background-color: white;
   color: #222;
   padding: 60px 40px;
-  margin: 60px auto;
+  margin: 30px auto;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   max-width: 100%;
@@ -481,9 +553,9 @@ body {
   }
 }
 section {
-  margin: 50px 0;
-  scroll-margin-top: 50px;
-   box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);  /* same shadow everywhere */
+  margin: 30px 0;
+  scroll-margin-top: 70px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);  
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
