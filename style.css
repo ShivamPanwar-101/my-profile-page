@@ -12,7 +12,6 @@ body.dark-mode {
   --card-bg: #1c1c1c;
 }
 
-
 /* Apply everywhere */
 html {
   scroll-behavior: smooth;
@@ -98,7 +97,7 @@ nav a {
   border: none;
   background: #ffffff;
   color: #00796b;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
   font-size: 22px;
   cursor: pointer;
   display: flex;
@@ -109,7 +108,7 @@ nav a {
 
 .dark-btn-ui:hover {
   transform: scale(1.08);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
 }
 
 /* Dark mode version */
@@ -720,7 +719,6 @@ body.dark-mode textarea {
   border: 1px solid #ddd;
 }
 
-
 body.dark-mode input::placeholder,
 body.dark-mode textarea::placeholder {
   color: #bbbbbb;
@@ -731,4 +729,3 @@ body.dark-mode textarea::placeholder {
 .btn:hover {
   transition: 0.3s ease;
 }
-
